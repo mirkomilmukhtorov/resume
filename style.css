@@ -92,12 +92,11 @@ h1 {
   position: relative;
   white-space: nowrap;
   padding: 5px 10px;
-  border: 1px solid #ccc; /* Added border for better visibility */
-  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .skills-container span:not(:first-child)::before {
-  /* Removed the separator, as the border is enough */
   display: none;
 }
 
